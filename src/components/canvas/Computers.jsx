@@ -5,7 +5,7 @@ import CanvasLoader from '../Loader';
 import { useState, useEffect } from "react";
 
 const Computers = ({isMobile }) => {
-  const computer = useGLTF('../desktop_pc/scene.gltf');
+  const computer = useGLTF('../../public/desktop_pc/scene.gltf');
 
   console.log('computer model loaded, ', computer);
   return (
